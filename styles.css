@@ -36,3 +36,9 @@ footer {
     background-color: #3b3b3b;
     color: white;
 }
+.logo {
+    width: 120px; /* Adjust the width of the logo */
+    height: auto; /* Keep the aspect ratio of the logo */
+    display: block; /* Ensure it is centered */
+    margin: 0 auto; /* Center the logo horizontally */
+}
