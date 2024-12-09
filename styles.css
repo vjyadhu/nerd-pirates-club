@@ -11,10 +11,14 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
+    display: flex; /* To align items in a row */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between logo and nav */
 }
 
 header .logo {
     width: 120px;
+    height: auto;
 }
 
 nav a {
@@ -35,10 +39,4 @@ footer {
     padding: 10px;
     background-color: #3b3b3b;
     color: white;
-}
-.logo {
-    width: 120px; /* Adjust the width of the logo */
-    height: auto; /* Keep the aspect ratio of the logo */
-    display: block; /* Ensure it is centered */
-    margin: 0 auto; /* Center the logo horizontally */
 }
