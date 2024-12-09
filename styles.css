@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -6,14 +7,18 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #ff7f50;
+}
+
 header {
     background-color: #3b3b3b;
     color: white;
     padding: 10px;
-    text-align: center;
-    display: flex; /* To align items in a row */
-    align-items: center; /* Vertically center items */
-    justify-content: space-between; /* Space between logo and nav */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo {
@@ -22,21 +27,83 @@ header .logo {
 }
 
 nav a {
-    color: #ff7f50;
-    text-decoration: none;
+    color: white;
     margin: 0 10px;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 5px;
+nav a:hover {
+    text-decoration: underline;
 }
 
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: linear-gradient(to right, #3b3b3b, #5a5a5a);
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero .btn-primary {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.hero .btn-primary:hover {
+    background-color: #e06840;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1em;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #3b3b3b;
     color: white;
+}
+
+footer a {
+    color: #ff7f50;
+    margin: 0 5px;
 }
